@@ -7,7 +7,7 @@ public class JsonFormatter implements Formatter {
     private static final String COLON = ":";
     private static final String COMMA = ",";
 
-    private boolean expectJson = false;
+    private boolean expectJson = true;
 
     public String format(ILoggingEvent event) {
         StringBuilder sb = new StringBuilder();
